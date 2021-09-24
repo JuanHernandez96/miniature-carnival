@@ -15,17 +15,23 @@
     <main>
         <div class="card">
             <form id="search-form">Search for a City:
-                <input type="text" placeholder="Where ya traveling?"/>
-                <button class="btn" type="button" onclick="getData()">Search</button>
+                <input type="text" class="citySearch" placeholder="Where ya traveling?"/>
+                <button class="btn" type="button">Search</button>
                 <section class="city-holder" id="cities">
                     
                 </section>
             </form>
         </div>
+
+        <div class="results"> 
+            <h1 class="city"></h1> 
+            <p class="info"></p> 
+            <p class="temperature"></p> 
+        </div>
     </main>
 
     <footer>
-        
+
     </footer>
     <script src="assets/js/script.js"></script>
 </body>
